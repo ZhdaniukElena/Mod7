@@ -1,0 +1,25 @@
+.keyboard {
+    width: 600px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: .2em .2em .8em gray;
+  }
+  
+  .keyboard__row1, .keyboard__row2, .keyboard__row3 {
+    padding: 5px;
+  }
+  
+  .keyboard__row1__btn, .keyboard__row2__btn, .keyboard__row3__btn {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid gray;
+    box-shadow: .2em .2em .5em gray;
+    margin: 5px;
+  }
